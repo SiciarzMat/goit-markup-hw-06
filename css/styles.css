@@ -550,8 +550,8 @@ header > .container {
   background-color: var(--white);
   display: flex;
   align-items: center;
-  justify-content: space-around;
   flex-direction: column;
+  padding: 40px;
 }
 .close-btn {
   display: flex;
@@ -651,6 +651,7 @@ header > .container {
   background-color: var(--nav_gray);
 }
 .modal-header {
+  margin: 0 auto 2px auto;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -672,6 +673,7 @@ header > .container {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: var(--gray);
+  margin: 10px 0;
 }
 .modal-button {
   margin: 0 auto;
@@ -683,6 +685,7 @@ header > .container {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  margin-top: 4px;
 }
 .modal-label-textarea {
   height: auto;
