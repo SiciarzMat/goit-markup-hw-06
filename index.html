@@ -427,33 +427,25 @@
             Komentarz
             <textarea class="modal-input modal-textarea" name="comment" rows="7" placeholder="Wprowadź tekst"></textarea>
           </label>
-          <div class="check">
             <label class="modal-label check-label" for="user_accept">
               <input
-                class="custom-check hidden"
                 type="checkbox"
+                class="label-checkbox"
                 name="accept"
                 id="user_accept"
               />
-              <span class="accept-text">
+              <span class="checkmark">
+                <svg class="tick">
+                <use href="./images/icons.svg#icon-Vector" width="11" height="8"></use>
+            </svg>
+          </span>
+                <span>
                 Oświadczam, iż akceptuję
-                <a
-                  class="accept-link"
-                  href="./index.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Regulamin</a
-                >
+                <a class="accept-link" href="./index.html" target="_blank" rel="noopener noreferrer">Regulamin</a>
                 i
-                <a
-                  class="accept-link"
-                  href="./index.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Politykę Prywatności</a
-                >.
-              </span></label>
-          </div>
+                <a class="accept-link" href="./index.html" target="_blank" rel="noopener noreferrer">Politykę Prywatności</a>.
+              </span>
+            </label>
           <button class="newsletter-button modal-button" type="submit">Wyślij</button>
         </form>
     </div>
