@@ -662,6 +662,7 @@ header > .container {
   color: var(--nav_gray);
 }
 .modal-label {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 448px;
@@ -686,6 +687,7 @@ header > .container {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-top: 4px;
+  padding-left: 42px;
 }
 .modal-label-textarea {
   height: auto;
@@ -762,4 +764,13 @@ header > .container {
   border-radius: 2px;
   background-color: var(--white);
   border: var(--black) 1px solid;
+}
+.modal-label-svg {
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+  left: 12px;
+}
+.modal-label:focus-within {
+  fill: var(--blue);
 }
